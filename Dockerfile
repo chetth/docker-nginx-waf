@@ -134,6 +134,7 @@ ONBUILD COPY nginx $NGINX_PREFIX/
 
 COPY ./conf/ /$NGINX_PREFIX/conf/
 ADD  ./start.sh /start.sh
+RUN chmod +x /start.sh
 
 EXPOSE 80 443
 

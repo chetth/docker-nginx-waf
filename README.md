@@ -1,2 +1,3 @@
 # docker-nginx-waf
-Openresty with WAF
+
+Testing auto-build Openresty with WAF docker image.
